@@ -21,6 +21,16 @@
     margin-top: 20px;
 }
 
+.card-body.card1{
+    background-color: #3540a5;
+}
+.card-body.card2{
+    background-color: #FFC145;
+}
+.card-body.card3{
+    background-color: #FF6B6C;
+}
+
 .benefits{
     margin-top: 200px;
     padding: 20px;
@@ -31,12 +41,6 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
-
-}
-
-.characteristic{
-
-    margin: 10px;
 
 }
 
