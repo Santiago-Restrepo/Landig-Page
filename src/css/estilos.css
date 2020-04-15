@@ -14,3 +14,64 @@
 {
     background-color: rgba(10, 10, 10, 0.9);
 }
+
+.btn-outline-azul
+{
+    border: 2px solid #FFFFFB;
+    color: #FFFFFB;
+}
+
+.btn-outline-azul:hover
+{
+    background-color: #FFFFFB;
+    color: black;
+}
+
+
+.btn-outline-morado
+{
+    border: 2px solid #FF6B6C;
+    color: #FF6B6C;
+}
+
+.btn-outline-morado:hover
+{
+    background-color: #FF6B6C;
+    color: black;
+}
+
+.btn-outline-naranja
+{
+    border: 2px solid #FFC145;
+    color: #FFC145;
+}
+
+.btn-outline-naranja:hover
+{
+    background-color: #FFC145;
+    color: black;
+}
+
+.btn-outline-ig
+{
+    border: 2px solid #B8B8D1;
+    color: #B8B8D1;   
+}
+
+.btn-outline-ig:hover
+{
+    background-color: #B8B8D1;
+    color: black;
+}
+
+.form-register
+{
+    text-align: center;
+}
+
+.container_footer
+{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+}
