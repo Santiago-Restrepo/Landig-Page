@@ -27,12 +27,12 @@
 .card-body.card2{
     background-color: #FFC145;
 }
-.card-body.card3{
+.card-body.card3 {
     background-color: #FF6B6C;
 }
 
 .benefits{
-    margin-top: 200px;
+    margin-top: 100px;
     padding: 20px;
 }
 
@@ -45,6 +45,15 @@
 }
 
 .content_title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card{
+    margin-bottom: px;
+}
+
+.card-header{
     text-align: center;
 }
 
