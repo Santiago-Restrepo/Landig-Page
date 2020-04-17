@@ -16,15 +16,13 @@
     
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <img src="./src/img/Polimathos.png" alt="Logotipo" class="Logo">
             <a class="navbar-brand" href="#">Polimathos</a>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                <a class="nav-link" href="#">Integrantes </a>
+                <a class="nav-link" href="#Title_Integrantes">Integrantes </a>
                 </li>
              </ul>
-        </div>
       </nav>
 
       <!-- CARROUSEL -->
@@ -43,7 +41,7 @@
               <p>
                   Si te apasiona crear código, <b> registrate y unete a la futura comunidad de creadores!</b>
               </p>
-              <button class="btn btn-outline-azul">Unirme!</button>
+              <button class="btn btn-outline-azul" id="Programador">Unirme!</button>
             </div>
           </div>
           <div class="carousel-item">
@@ -53,17 +51,17 @@
                 <p>
                     Si creas diseños, <b> registrate y unete a la futura comunidad de creadores!</b>
                 </p>
-                <button class="btn btn-outline-morado">Unirme!</button>
+                <button class="btn btn-outline-morado" id="Diseñador">Unirme!</button>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="https://concepto.de/wp-content/uploads/2018/10/medios-audiovisuales1-e1538663613940.jpg" class="d-block w-100" alt="Audiovisual">
+            <img src="https://www.utu.edu.uy/utu/sites/www.utu.edu.uy/files/styles/styles_noticias_home/public/noticia/imagenes/2020/02/audiovisual-ispet-latu.png?h=ca9ba149&itok=r6BpU2Zp" class="d-block w-100" alt="Audiovisual">
             <div class="carousel-caption d-none d-md-block">
                 <h5><b>BIENVENIDOS MÚSICOS Y PRODUCTORES 💻</b></h5>
                 <p>
                     Si amas hacer música o producciones audiovisuales, <b> registrate y unete a la futura comunidad de creadores!</b>
                 </p>
-                <button class="btn btn-outline-naranja">Unirme!</button>
+                <button class="btn btn-outline-naranja" id="AudioVisual">Unirme!</button>
             </div>
           </div>
           <div class="carousel-item">
@@ -73,7 +71,7 @@
               <p>
                   Si te encantan las redes sociales y crear contenido, <b> registrate y unete a la futura comunidad de creadores!</b>
                 </p>
-                <button class="btn btn-outline-ig">Unirme!</button>
+                <button class="btn btn-outline-ig" id="SocialMedia">Unirme!</button>
             </div>
           </div>
         </div>
@@ -87,64 +85,213 @@
         </a>
         
       <hr>
+      </div>
+      <div class="container container_form hide" id="container_form"></div>
 
-      <div class="container container_footer">
-        <h3 class="form-register">REGISTRATE!</h3>
-      <form action="">
-        <div class="form-group">
-    
-          <div class="form-group">
-            <label for="Name">Nombre Completo:</label>
-            <input type="email" class="form-control" id="Name" placeholder="Nombre">
-          </div>
+      <div class="alert-responsive">
+        <div class="alert alert-danger hide-responsive" role="alert">
+          Para registrate, por favor abre la página en tu PC
+        </div>
+      </div>
 
-          <div class="form-group">
-            <label for="SelectDocument">Tipo de Documento</label>
-            <select class="form-control" id="SelectDocument">
-                <option>Tarjeta de Identidad</option>
-                <option>Cedula de Ciudadania</option>
-                <option>Cedula Extranjera</option>
-            </select>
-          </div>
+      <!-- PARTE SANTIAGO -->
 
-          <div class="form-group">
-            <label for="DI">Documento de Identidad:</label>
-            <input type="text" name="Document" id="DI" class="form-control" placeholder="CC / TI / ...">
-          </div>
 
-          <div class="form-group">
-            <label for="Gender">Genero:</label>
-            <select class="form-control" id="Gender">
-                <option>Hombre</option>
-                <option>Mujer</option>
-            </select>
-          </div>
-
-            <div class="form-group">
-            <label for="Nacimiento">Fecha de Nacimiento</label>
-            <input type="date" name="Nacimiento" id="Nacimiento" class="form-control">
+      <hr>
+      <h2 class="title_integrantes" id="Title_Integrantes">Integrantes</h2>
+      <hr>
+      <div class="row">
+        <div class="col-sm-12 col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="https://i.ibb.co/NpPWqDt/Avatar.png" alt="Avatar">
+              <h5 class="card-title">Juan Esteban Galvis</h5>
+              <p class="card-text">Desarrollador Front-end 💻 ~ Aficionado al periodismo digital, electrónica y seguridad informática 📰 ~ Estudiante de Ingeniería y Platzi 💚</p>
+              <button class="btn btn-dark" data-toggle="modal" data-target="#JuanGalvis">Conocer!</button>
             </div>
-
-            <div class="form-group">
-            <label for="Email">Email</label>
-            <input type="email" class="form-control" id="Email" placeholder="example@mail.com">
-              </div>
-
-            <div class="form-group">
-            <label for="Asunto">Asunto</label>
-            <input type="text" class="form-control" id="Asunto" placeholder="Aunto">
-              </div>
-
-            <div class="form-group">
-            <label for="Mensaje">Mensaje</label>
-            <textarea class="form-control" id="Mensaje" rows="3"></textarea>
-            <small id="emailHelp" class="form-text text-muted">Envianos recomendaciones, opiniones o los comentarios que quieras!</small>   
           </div>
+        </div>
+        <div class="col-sm-12 col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="https://i.ibb.co/ZhxRQw8/Whats-App-Image-2020-04-17-at-9-30-27-AM.jpg" alt="Avatar">
+              <h5 class="card-title">Santiago Restrepo</h5>
+              <p class="card-text">
+                Soy estudiante de ingeniería informática y de Platzi, músico en proceso, guitarrista con experiencia intermedia y apasionado por la seguridad informática, el aprendizaje y la música.
+              </p>
+              <button class="btn btn-dark" data-toggle="modal" data-target="#Santiago">Conocer!</button>
+            </div>
           </div>
-    </form>
-    </div>
+        </div>
+        <div class="col-sm-12 col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="https://i.ibb.co/k5Ck3LN/Whats-App-Image-2020-04-17-at-9-43-28-AM.jpg" alt="Avatar">
+              <h5 class="card-title">Diego Agudelo</h5>
+              <p class="card-text">
+                Estudiante de ingeniería informática en tercer semestre,  amante de los vídeo juegos  y de los juegos de rol.
+              </p>
+              <button class="btn btn-dark" data-toggle="modal" data-target="#Diego">Conocer!</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="https://i.ibb.co/hCLvXvr/Whats-App-Image-2020-04-17-at-9-31-20-AM.jpg" alt="Avatar">
+              <h5 class="card-title">Mateo Berrio</h5>
+              <p class="card-text">
+                Estudiante de inegeniería informática, gamer desde que tengo memoria y amante de tomar fotos (Paisajes).
+              </p>
+              <button class="btn btn-dark" data-toggle="modal" data-target="#Mateo">Conocer!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
 
     <script src="./src/js/script.js"></script>
+
+      <!-- Modal Integrantes -->
+      <div class="integrantes">
+        <!-- JUAN GALVIS -->
+        <div class="modal" tabindex="-1" role="dialog" id="JuanGalvis">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Juan Esteban Galvis</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="https://i.ibb.co/NpPWqDt/Avatar.png" alt="Avatar">
+                <p>
+                  Front-end web development 💻 ~ Aficionado al periodismo digital 📰 ~ Estudiante de Ingeniería y Platzi 💚
+                </p>
+              </div>
+              <div class="modal-footer">
+                <a href="https://www.github.com/JuanesGalvis" target="_blank"><img src="./src/img/Social/icons8-github-50.png" alt="GitHub"></a>
+                <a href="https://www.Instagram.com/JuanGalvis/" target="_blank"><img src="./src/img/Social/icons8-instagram-50.png" alt="Instagram"></a>
+                <a href="https://www.Linkedin.com/in/Juanegalvis" target="_blank"><img src="./src/img/Social/icons8-linkedin-50.png" alt="Linkedin"></a>
+                <a href="https://www.Twitter.com/JuaneGalvis" target="_blank"><img src="./src/img/Social/icons8-twitter-50.png" alt="Twitter"></a>
+                <a href="mailto:juan_galvis82191@elpoli.edu.co" target="_blank"><img src="https://img.icons8.com/plasticine/50/000000/gmail.png" alt="Gmail"/></a>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Salir</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SANTIAGO RESTREPO -->
+        <div class="modal" tabindex="-1" role="dialog" id="Santiago">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Santiago Restrepo</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="https://i.ibb.co/ZhxRQw8/Whats-App-Image-2020-04-17-at-9-30-27-AM.jpg" alt="Avatar">
+                <p>
+                  Soy estudiante de ingeniería informática y de Platzi, músico en proceso, guitarrista con experiencia intermedia y apasionado por la seguridad informática, el aprendizaje y la música.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <a href="https://www.https://github.com/Santiago-Restrepo" target="_blank"><img src="./src/img/Social/icons8-github-50.png" alt="GitHub"></a>
+                <a href="https://www.Instagram.com/zoic_santi" target="_blank"><img src="./src/img/Social/icons8-instagram-50.png" alt="Instagram"></a>
+                <a href="https://www.Linkedin.com/in/santiago-restrepo-a853971a0/" target="_blank"><img src="./src/img/Social/icons8-linkedin-50.png" alt="Linkedin"></a>
+                <a href="https://www.Twitter.com/Restre_Santi" target="_blank"><img src="./src/img/Social/icons8-twitter-50.png" alt="Twitter"></a>
+                <a href="mailto:santiago_restrepo82191@elpoli.edu.co" target="_blank"><img src="https://img.icons8.com/plasticine/50/000000/gmail.png" alt="Gmail"/></a>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Salir</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- MATEO BERRIO -->
+        <div class="modal" tabindex="-1" role="dialog" id="Mateo">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Mateo Berrio Cardona</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="https://i.ibb.co/hCLvXvr/Whats-App-Image-2020-04-17-at-9-31-20-AM.jpg" alt="Avatar">
+                <p>
+                  Estudiante de inegeniería informática, gamer desde que tengo memoria y amante de tomar fotos (Paisajes).
+                </p>
+              </div>
+              <div class="modal-footer">
+                <a href="https://www.instagram.com/jackbs703/?hl=es-la" target="_blank"><img src="./src/img/Social/icons8-instagram-50.png" alt="Instagram"></a>
+                <a href="https://www.facebook.com/profile.php?id=100005388555641&ref=bookmarks" target="_blank"><img src="./src/img/Social/icons8-facebook-50.png" alt="Facebook"></a>
+                <a href="mailto:mateo_berrio82191@elpoli.edu.co" target="_blank"><img src="https://img.icons8.com/plasticine/50/000000/gmail.png" alt="Gmail"/></a>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Salir</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DIEGO AGUDELO -->
+        <div class="modal" tabindex="-1" role="dialog" id="Diego">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Diego Agudelo</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="https://i.ibb.co/k5Ck3LN/Whats-App-Image-2020-04-17-at-9-43-28-AM.jpg" alt="Avatar">
+                <p>
+                  Estudiante de ingeniería informática en tercer semestre,  amante de los vídeo juegos  y de los juegos de rol.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <a href="https://www.facebook.com/dieguitostylush1000gradoscentirgrados" target="_blank"><img src="./src/img/Social/icons8-facebook-50.png" alt="Facebook"></a>
+                <a href="mailto:diegoagudelo180@gmail.com" target="_blank"><img src="https://img.icons8.com/plasticine/50/000000/gmail.png" alt="Gmail"/></a>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Salir</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Modal registro 200 -->
+  <div class="modal fade" id="RegisterModal" tabindex="-1" role="dialog" aria-labelledby="RegisterModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="RegisterModalLabel">Felicidades!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="alert alert-success" role="alert">
+            <h4 class="alert-heading">Ahora formas parte de la futura comunidad de creadores!</h4>
+            <p>Muy pronto, cuando Polimathos termine de ser creada te enviaremos un correo para que ingreses y empieces a subir y compartir tus proyectos con una gran comunidad!</p>
+          </div>
+          <button type="button" class="btn btn-primary">
+            Creadores Registrados: <span class="badge badge-light">100</span>
+            <span class="sr-only">unread messages</span>
+          </button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-dismiss="modal" id="Process200">Listo</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="container-fluid navbar-dark bg-dark pb-3 footer">
+        <h4>Polimathos ~ 2020</h4>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
